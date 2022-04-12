@@ -7,8 +7,10 @@
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/drawable/frame_bg.xml" value="0.171" />
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/drawable/frame_go_club_bg.xml" value="0.171" />
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/drawable/frame_gopay_bg.xml" value="0.171" />
+        <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/drawable/frame_rounded_bg.xml" value="0.1795" />
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/drawable/frame_saldo_bg.xml" value="0.171" />
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/drawable/ic_avatar_btn.xml" value="0.171" />
+        <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/drawable/ic_dote.xml" value="0.1795" />
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/drawable/ic_explore.xml" value="0.171" />
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/drawable/ic_gocar.xml" value="0.171" />
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/drawable/ic_launcher_background.xml" value="0.171" />
@@ -25,10 +27,10 @@
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/layout/fragment_order.xml" value="0.1933876811594203" />
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/layout/fragment_page.xml" value="0.1984375" />
-        <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/layout/fragment_promo.xml" value="1.2" />
+        <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/layout/fragment_promo.xml" value="0.4" />
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/layout/frame_gopay.xml" value="0.72" />
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/layout/goclub_layout.xml" value="0.72" />
-        <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/layout/list_news.xml" value="0.4" />
+        <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/layout/list_news.xml" value="0.152" />
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/layout/menu_layout.xml" value="0.264" />
         <entry key="..\:/Users/rezac/Documents/pemprograman/android/GojekClone/app/src/main/res/layout/quick_access_layout.xml" value="0.4" />
       </map>

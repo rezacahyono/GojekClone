@@ -33,10 +33,21 @@
     <string name="member">Langganan</string>
     <string name="can_use">Bisa dipakai</string>
     <string name="vouchers">Vouchers</string>
+    <string name="input_promo_code">Masukan kode promo</string>
+    <string name="title_promo">Promo menarik buat kamu</string>
+    <string name="look_promo">Kiri kanan, Kulihat diskon~ 🤩</string>
+    <string name="see_all">Lihat semua</string>
+
     <string-array name="title_tab">
         <item>Beranda</item>
         <item>Promo</item>
         <item>Pesanan</item>
         <item>Chat</item>
+    </string-array>
+
+    <string-array name="type_promo">
+        <item>Apa aja</item>
+        <item>GoFood</item>
+        <item>GoPay</item>
     </string-array>
 </resources>
