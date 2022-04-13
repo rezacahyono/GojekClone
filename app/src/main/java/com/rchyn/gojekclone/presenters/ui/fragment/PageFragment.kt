@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.NavController
+import androidx.navigation.NavHostController
+import androidx.navigation.fragment.NavHostFragment
 import com.google.android.material.tabs.TabLayoutMediator
 import com.rchyn.gojekclone.R
 import com.rchyn.gojekclone.databinding.FragmentPageBinding
@@ -29,10 +32,12 @@ class PageFragment : Fragment() {
 
         val tabTitle = requireActivity().resources.getStringArray(R.array.title_tab)
         val sectionsPagerAdapter = SectionsPagerAdapter(requireActivity())
+
         binding.apply {
             viewPager.adapter = sectionsPagerAdapter
             viewPager.isUserInputEnabled = false
         }
+
         TabLayoutMediator(binding.tabNav, binding.viewPager) { tab, position ->
             tab.text = tabTitle[position]
         }.attach()

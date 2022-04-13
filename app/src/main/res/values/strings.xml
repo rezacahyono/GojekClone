@@ -51,7 +51,7 @@
         <item>GoFood</item>
         <item>GoPay</item>
     </string-array>
-    
+
     <string name="title_promo_1">Tahu Cry Yuk, Cipadu</string>
     <string name="title_promo_2">Nasi Goreng ABC</string>
     <string name="title_promo_3">Ayam Geprek Gembus, Cipadu</string>
@@ -59,5 +59,10 @@
     <string name="title_distance">0.94km</string>
     <string name="title_rating">4.8·24rb</string>
     <string name="message_not_found">Oops!\nHalaman tidak tersedia🥺</string>
+    <string name="pay_and_send">Bayar dan Kirim</string>
+    <string name="to_rek">Ke rek.</string>
+    <string name="use_qr">Pakai kode</string>
+    <string name="title_friend">Temanmu di gopay</string>
+    <string name="name_user">Muhamad Reza Cahyono</string>
 
 </resources>
