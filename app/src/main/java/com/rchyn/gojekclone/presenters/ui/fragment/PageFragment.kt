@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.google.android.material.tabs.TabLayoutMediator
 import com.rchyn.gojekclone.R
 import com.rchyn.gojekclone.databinding.FragmentPageBinding
-import com.rchyn.gojekclone.presenters.ui.adapter.SectionsPagerAdapter
+import com.rchyn.gojekclone.presenters.adapter.SectionsPagerAdapter
 
 
 class PageFragment : Fragment() {
@@ -29,7 +29,10 @@ class PageFragment : Fragment() {
 
         val tabTitle = requireActivity().resources.getStringArray(R.array.title_tab)
         val sectionsPagerAdapter = SectionsPagerAdapter(requireActivity())
-        binding.viewPager.adapter = sectionsPagerAdapter
+        binding.apply {
+            viewPager.adapter = sectionsPagerAdapter
+            viewPager.isUserInputEnabled = false
+        }
         TabLayoutMediator(binding.tabNav, binding.viewPager) { tab, position ->
             tab.text = tabTitle[position]
         }.attach()

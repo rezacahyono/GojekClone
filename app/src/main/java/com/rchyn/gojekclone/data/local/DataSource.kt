@@ -2,6 +2,7 @@ package com.rchyn.gojekclone.data.local
 
 import com.rchyn.gojekclone.R
 import com.rchyn.gojekclone.domain.model.News
+import com.rchyn.gojekclone.domain.model.Promo
 
 object DataSource {
     private val imgNews = intArrayOf(
@@ -24,13 +25,55 @@ object DataSource {
 
     fun getDataNews(): List<News> {
         val data: ArrayList<News> = arrayListOf()
-        for (i in imgNews.indices){
+        for (i in imgNews.indices) {
             val news = News(
                 imgNews[i],
                 titleNews[i],
                 descriptionNews[i]
             )
             data.add(news)
+        }
+        return data
+    }
+
+    private val imgPromo = intArrayOf(
+        R.drawable.promo_1,
+        R.drawable.promo_2,
+        R.drawable.promo_3,
+        R.drawable.promo_4,
+    )
+
+    private val titlePromo = intArrayOf(
+        R.string.title_promo_1,
+        R.string.title_promo_2,
+        R.string.title_promo_3,
+        R.string.title_promo_4
+    )
+
+    private val distancePromo = intArrayOf(
+        R.string.title_distance,
+        R.string.title_distance,
+        R.string.title_distance,
+        R.string.title_distance,
+    )
+
+    private val ratingPromo = intArrayOf(
+        R.string.title_rating,
+        R.string.title_rating,
+        R.string.title_rating,
+        R.string.title_rating,
+    )
+
+    fun getDataPromo(): List<Promo> {
+        val data: ArrayList<Promo> = arrayListOf()
+        for (i in imgPromo.indices) {
+            val promo = Promo(
+                imgPromo[i],
+                titlePromo[i],
+                distancePromo[i],
+                ratingPromo[i]
+            )
+            data.add(promo)
         }
         return data
     }

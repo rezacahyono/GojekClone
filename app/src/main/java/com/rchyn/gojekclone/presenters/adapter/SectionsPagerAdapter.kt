@@ -1,4 +1,4 @@
-package com.rchyn.gojekclone.presenters.ui.adapter
+package com.rchyn.gojekclone.presenters.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
